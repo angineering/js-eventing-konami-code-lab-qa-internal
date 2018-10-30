@@ -16,7 +16,7 @@ function onKeyDownHandler(e) {
   console.log(key)
   if (key === alphabet[index]) {
     index++;
-    console.log(index)
+    console.log('index is', index)
  
     if (index === alphabet.length) {
       alert("Hurray!");
